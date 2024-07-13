@@ -1,0 +1,1 @@
+{"lr": 0.001, "batch_size": 64, "epochs": 40, "num_workers": 6}
