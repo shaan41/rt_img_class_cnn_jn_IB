@@ -16,10 +16,13 @@ docker-compose.yaml
 build_and_push.sh
 venv/
 
-
+# Ignore Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
 
 # Environments
 .env
